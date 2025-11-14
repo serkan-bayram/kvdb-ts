@@ -7,3 +7,8 @@ Transcripts klasörü içindeki her bir klasör YouTube'daki bir video Id'si. İ
 İlk defa çalıştırırken:
 
 npm run db:seed -> Database'i doldurur
+
+--- 
+
+Bu proje <a href="https://github.com/serkan-bayram/KVDB">KVDB MVC</a> projesinin TanSack Portudur. (Çünkü neden olmasın)
+
