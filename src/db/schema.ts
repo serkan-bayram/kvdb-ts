@@ -1,4 +1,4 @@
-import { InferInsertModel } from "drizzle-orm";
+import { InferInsertModel, InferSelectModel } from "drizzle-orm";
 import { numeric, pgTable, serial, text } from "drizzle-orm/pg-core";
 
 // Olabildiğince basit olması açısından her şeyi tek bir table üzerinden yapacağım
@@ -12,3 +12,4 @@ export const transcripts = pgTable("transcripts", {
 });
 
 export type InsertTranscript = InferInsertModel<typeof transcripts>;
+export type SelectTranscript = InferSelectModel<typeof transcripts>;
